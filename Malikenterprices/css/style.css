@@ -875,7 +875,6 @@ footer a:hover {
     font-size: 16px !important;
     color: var(--brand-blue) !important;
     font-weight: 600 !important;
-    font-size: 20px !important;
     font-family: "Playfair Display", serif !important;
     font-optical-sizing: auto !important;
     font-weight: 600 !important;
@@ -1156,4 +1155,5 @@ nav ul {
     font-size: 17px;
   }
 }
+
 
