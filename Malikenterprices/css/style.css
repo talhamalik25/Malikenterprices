@@ -231,6 +231,7 @@ footer a:hover {
   cursor: pointer !important;
   transition: all 0.3s ease !important;
   box-shadow: 0 4px 10px rgba(0, 123, 255, 0.2) !important;
+  text-decoration: none;
 }
 
 .see-more:hover {
@@ -1157,3 +1158,74 @@ nav ul {
 }
 
 
+
+/* Fix Navbar Background on Mobile */
+
+/* When Scrolled, Optional Shadow */
+.navbar.scrolled {
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Toggler Icon Fix */
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000000' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(0, 0, 0, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+/* Dropdown Menu Background on Mobile */
+@media (max-width: 991px) {
+  .navbar-collapse {
+    background: #ffffff; /* solid white background */
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+
+  }
+
+  .nav-link {
+    color: #000 !important;
+    padding: 10px 0;
+    font-size: 18px;
+  }
+}
+
+/* Fix Navbar Background on Mobile (Arif Malik & Sons Navbar) */
+.site-navbar-2 {
+
+  z-index: 999;
+}
+
+/* Toggler button border remove */
+.navbar-toggler {
+  border: none !important;
+}
+
+/* Custom toggler icon (black color) */
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000000' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(0, 0, 0, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
+}
+
+/* Mobile Menu background fix */
+@media (max-width: 991px) {
+  #mainNav {
+    background: #ffffff !important; /* white solid background */
+    padding: 15px 0;
+  }
+
+  .nav-link-2 {
+    color: #000 !important; /* dark menu links */
+    padding: 10px 0;
+    font-size: 18px;
+    display: block;
+    text-align: center;
+  }
+}
+
+/* Hover Effect (looks premium) */
+.nav-link-2:hover {
+  color: #007bff !important; /* Light blue hover */
+  transition: 0.3s;
+}
